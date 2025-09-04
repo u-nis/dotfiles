@@ -1,0 +1,56 @@
+{
+  "git.autofetch": true,
+  "editor.formatOnSave": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.enableSmartCommit": true,
+  "remote.SSH.remotePlatform": {
+    "ug26.cs.ualberta.ca": "linux"
+  },
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+
+  "editor.fontFamily": "TX-02",
+  "editor.lineHeight": 1.2,
+  "editor.fontLigatures": true,
+  "explorer.confirmDelete": false,
+  "transparent-win.transparency": 0.2,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultColorDecorators": "always",
+  "window.customTitleBarVisibility": "windowed",
+
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-p>": false,
+    "<C-w": false
+  },
+
+  // To improve performance
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+    "asvetliakov.vscode-neovim": 1
+  },
+  //"workbench.colorCustomizations": {
+  //  "sideBar.background": "#000000",
+  //  "sideBarSectionHeader.background": "#000000",
+  //  "sideBarSectionHeader.foreground": "#f8f8f2",
+  //  "sideBarSectionHeader.border": "#1a1a1a",
+  //  "sideBarTitle.foreground": "#f8f8f2",
+  //  "sideBar.foreground": "#f8f8f2",
+  //  "sideBar.border": "#1a1a1a",
+  //},
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontSize": 16,
+  "workbench.colorTheme": "Autumn"
+}
