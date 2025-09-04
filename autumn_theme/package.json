@@ -1,0 +1,20 @@
+{
+    "name": "autumn-vscode",
+    "displayName": "Autumn",
+    "publisher": "you",
+    "version": "0.0.1",
+    "engines": { "vscode": "^1.70.0" },
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Autumn",
+          "uiTheme": "vs-dark",
+          "path": "./themes/autumn_theme.json"
+        }
+      ]
+    },
+    "license": "MIT",
+    "repository": { "type": "git", "url": "https://example.com/your-repo.git" }
+  }
+  
